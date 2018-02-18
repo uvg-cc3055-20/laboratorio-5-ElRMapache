@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Juan Rodolfo Alonzo Molina
+//15470
+
 public class Character : MonoBehaviour
 {
 
@@ -41,7 +44,7 @@ public class Character : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            RaycastHit2D raycast = Physics2D.Raycast(feet.transform.position, Vector2.down, 0.lf , layerMask);
+            RaycastHit2D raycast = Physics2D.Raycast(feet.transform.position, Vector2.down, 0.1f , layerMask);
             if (raycast.collider != null)
             {
                 rb2d.AddForce(Vector2.up * jumpForce);

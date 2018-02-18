@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Juan Rodolfo Alonzo Molina
+//15470
+
 public class Weight : MonoBehaviour {
 
     public LineRenderer line;

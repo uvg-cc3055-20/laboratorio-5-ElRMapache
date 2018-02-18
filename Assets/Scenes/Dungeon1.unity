@@ -4784,6 +4784,7 @@ GameObject:
   - component: {fileID: 757755088}
   - component: {fileID: 757755087}
   - component: {fileID: 757755086}
+  - component: {fileID: 757755089}
   m_Layer: 0
   m_Name: EffectorDown
   m_TagString: Untagged
@@ -4849,6 +4850,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &757755089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757755085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086097856e0ec5142a0ed87b66b887fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  objeto: 1
 --- !u!1 &957607105
 GameObject:
   m_ObjectHideFlags: 0
@@ -8561,6 +8575,7 @@ GameObject:
   - component: {fileID: 1499506977}
   - component: {fileID: 1499506976}
   - component: {fileID: 1499506975}
+  - component: {fileID: 1499506978}
   m_Layer: 0
   m_Name: EffectorUp
   m_TagString: Untagged
@@ -8626,6 +8641,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499506978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1499506974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086097856e0ec5142a0ed87b66b887fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 0
+  objeto: 1
 --- !u!1 &1877495109
 GameObject:
   m_ObjectHideFlags: 0
@@ -8752,6 +8780,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e99b44667dfa8004b9cfb25513372f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  feet: {fileID: 1098008709}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!70 &1877529902
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
